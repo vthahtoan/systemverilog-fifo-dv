@@ -102,3 +102,7 @@ The implemented design is fixed at 8 bits × 16 entries. Monitor sampling uses a
 ## Reading the code
 
 Start with [specification](docs/spec.md), then follow the [reading order](docs/reading-order.md). The [test plan](docs/testplan.md) maps the requirements to stimulus and checks.
+---
+
+Developed by **Võ Thanh Toàn**  
+University of Information Technology, VNU-HCM.
