@@ -1,0 +1,19 @@
+# COVERAGE MODEL: request x pre-edge occupancy (12 bins; reset excluded)
+# COVERAGE SV: samples=238 request=100.00% occupancy=100.00% cross=100.00% group=100.00%
+# COV BIN: state=empty request=idle hits=10  HIT
+# COV BIN: state=empty request=read hits=4  HIT
+# COV BIN: state=empty request=write hits=3  HIT
+# COV BIN: state=empty request=both hits=1  HIT
+# COV BIN: state=middle request=idle hits=99  HIT
+# COV BIN: state=middle request=read hits=47  HIT
+# COV BIN: state=middle request=write hits=49  HIT
+# COV BIN: state=middle request=both hits=1  HIT
+# COV BIN: state=full request=idle hits=15  HIT
+# COV BIN: state=full request=read hits=3  HIT
+# COV BIN: state=full request=write hits=3  HIT
+# COV BIN: state=full request=both hits=3  HIT
+# COVERAGE CROSS: hit_bins=12 total_bins=12 percent=100.00%
+# COVERAGE RESET: samples=2 percent=33.33%
+# COV RESET BIN: state=empty hits=2  HIT
+# COV RESET BIN: state=partial hits=0 MISS
+# COV RESET BIN: state=full hits=0 MISS

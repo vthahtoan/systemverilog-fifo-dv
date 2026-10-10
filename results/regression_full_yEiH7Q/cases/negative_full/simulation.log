@@ -1,0 +1,85 @@
+Reading pref.tcl
+
+# 2021.2_1
+
+# vsim -modelsimini <project-root>/build/negative-full_UMjOcW/modelsim.ini -c -onfinish stop -voptargs="+acc" -assertcounts -wlf <project-root>/logs/negative-full_UMjOcW/wave.wlf work.fifo_scenario_tb -do "do {<project-root>/scripts/batch.do}" -gSCENARIO=0 
+# Start time: 11:32:32 on Oct 10,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fifo_if(fast)
+# Loading work.fifo_tb_pkg(fast)
+# Loading work.fifo_scenario_tb(fast)
+# Loading work.fifo_if(fast__2)
+# Loading work.sync_fifo(fast)
+# Loading work.fifo_assertions(fast)
+# do {<project-root>/scripts/batch.do}
+# SVA ACTIVE: fifo_scenario_tb.dut.fifo_checks (10 assertions, 6 cover properties)
+# TEST SCENARIO: name=boundary back_to_back=0
+# TEST CONFIG: random=0 seed=12345 requests=118 samples=240
+# SCB OK: sample=1 rst_n=0 wr_en=0 rd_en=0 expected_count=0 rdata=00
+# SCB OK: sample=2 rst_n=0 wr_en=0 rd_en=0 expected_count=0 rdata=00
+# SCB OK: sample=3 rst_n=1 wr_en=0 rd_en=0 expected_count=0 rdata=00
+# SCB OK: sample=4 rst_n=1 wr_en=0 rd_en=1 expected_count=0 rdata=00
+# SCB OK: sample=5 rst_n=1 wr_en=0 rd_en=0 expected_count=0 rdata=00
+# SCB OK: sample=6 rst_n=1 wr_en=1 rd_en=1 expected_count=1 rdata=00
+# SCB OK: sample=7 rst_n=1 wr_en=0 rd_en=0 expected_count=1 rdata=00
+# SCB OK: sample=8 rst_n=1 wr_en=1 rd_en=0 expected_count=2 rdata=00
+# SCB OK: sample=9 rst_n=1 wr_en=0 rd_en=0 expected_count=2 rdata=00
+# SCB OK: sample=10 rst_n=1 wr_en=0 rd_en=0 expected_count=2 rdata=00
+# SCB OK: sample=11 rst_n=1 wr_en=0 rd_en=0 expected_count=2 rdata=00
+# SCB OK: sample=12 rst_n=1 wr_en=0 rd_en=1 expected_count=1 rdata=ab
+# SCB OK: sample=13 rst_n=1 wr_en=0 rd_en=0 expected_count=1 rdata=ab
+# SCB OK: sample=14 rst_n=1 wr_en=1 rd_en=1 expected_count=1 rdata=cd
+# SCB OK: sample=15 rst_n=1 wr_en=0 rd_en=0 expected_count=1 rdata=cd
+# SCB OK: sample=16 rst_n=1 wr_en=0 rd_en=1 expected_count=0 rdata=ef
+# SCB OK: sample=17 rst_n=1 wr_en=0 rd_en=0 expected_count=0 rdata=ef
+# SCB OK: sample=18 rst_n=1 wr_en=1 rd_en=0 expected_count=1 rdata=ef
+# SCB OK: sample=19 rst_n=1 wr_en=0 rd_en=0 expected_count=1 rdata=ef
+# SCB OK: sample=20 rst_n=1 wr_en=1 rd_en=0 expected_count=2 rdata=ef
+# SCB OK: sample=21 rst_n=1 wr_en=0 rd_en=0 expected_count=2 rdata=ef
+# SCB OK: sample=22 rst_n=1 wr_en=1 rd_en=0 expected_count=3 rdata=ef
+# SCB OK: sample=23 rst_n=1 wr_en=0 rd_en=0 expected_count=3 rdata=ef
+# SCB OK: sample=24 rst_n=1 wr_en=1 rd_en=0 expected_count=4 rdata=ef
+# SCB OK: sample=25 rst_n=1 wr_en=0 rd_en=0 expected_count=4 rdata=ef
+# SCB OK: sample=26 rst_n=1 wr_en=1 rd_en=0 expected_count=5 rdata=ef
+# SCB OK: sample=27 rst_n=1 wr_en=0 rd_en=0 expected_count=5 rdata=ef
+# SCB OK: sample=28 rst_n=1 wr_en=1 rd_en=0 expected_count=6 rdata=ef
+# SCB OK: sample=29 rst_n=1 wr_en=0 rd_en=0 expected_count=6 rdata=ef
+# SCB OK: sample=30 rst_n=1 wr_en=1 rd_en=0 expected_count=7 rdata=ef
+# SCB OK: sample=31 rst_n=1 wr_en=0 rd_en=0 expected_count=7 rdata=ef
+# SCB OK: sample=32 rst_n=1 wr_en=1 rd_en=0 expected_count=8 rdata=ef
+# SCB OK: sample=33 rst_n=1 wr_en=0 rd_en=0 expected_count=8 rdata=ef
+# SCB OK: sample=34 rst_n=1 wr_en=1 rd_en=0 expected_count=9 rdata=ef
+# SCB OK: sample=35 rst_n=1 wr_en=0 rd_en=0 expected_count=9 rdata=ef
+# SCB OK: sample=36 rst_n=1 wr_en=1 rd_en=0 expected_count=10 rdata=ef
+# SCB OK: sample=37 rst_n=1 wr_en=0 rd_en=0 expected_count=10 rdata=ef
+# SCB OK: sample=38 rst_n=1 wr_en=1 rd_en=0 expected_count=11 rdata=ef
+# SCB OK: sample=39 rst_n=1 wr_en=0 rd_en=0 expected_count=11 rdata=ef
+# SCB OK: sample=40 rst_n=1 wr_en=1 rd_en=0 expected_count=12 rdata=ef
+# SCB OK: sample=41 rst_n=1 wr_en=0 rd_en=0 expected_count=12 rdata=ef
+# SCB OK: sample=42 rst_n=1 wr_en=1 rd_en=0 expected_count=13 rdata=ef
+# SCB OK: sample=43 rst_n=1 wr_en=0 rd_en=0 expected_count=13 rdata=ef
+# SCB OK: sample=44 rst_n=1 wr_en=1 rd_en=0 expected_count=14 rdata=ef
+# SCB OK: sample=45 rst_n=1 wr_en=0 rd_en=0 expected_count=14 rdata=ef
+# ** Fatal: Post-edge mismatch at sample 46: actual rdata=ef full=1 empty=0; expected rdata=ef occupancy=15
+#    Time: 456 ns  Scope: fifo_tb_pkg.fifo_scoreboard.run File: <project-root>/tb/fifo_scoreboard.sv Line: 76
+# ** Note: $finish    : <project-root>/tb/fifo_scoreboard.sv(76)
+#    Time: 456 ns  Iteration: 1  Region: /fifo_tb_pkg::fifo_environment::run
+# Break in Task fifo_tb_pkg/fifo_scoreboard::run at <project-root>/tb/fifo_scoreboard.sv line 76
+# Stopped at <project-root>/tb/fifo_scoreboard.sv line 76
+# End time: 11:32:35 on Oct 10,2026, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 0

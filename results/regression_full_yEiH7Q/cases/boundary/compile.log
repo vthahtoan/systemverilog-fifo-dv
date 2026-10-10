@@ -1,0 +1,14 @@
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 11:32:12 on Oct 10,2026
+vlog -modelsimini <project-root>/build/boundary_iwNMa8/modelsim.ini -sv -work work "+incdir+<project-root>/tb" <project-root>/src/fifo.sv <project-root>/tb/fifo_if.sv <project-root>/tb/fifo_tb_pkg.sv <project-root>/tb/fifo_scenario_tb.sv <project-root>/tb/fifo_assertions.sv 
+-- Compiling module sync_fifo
+-- Compiling interface fifo_if
+-- Compiling package fifo_tb_pkg
+-- Compiling module fifo_scenario_tb
+-- Importing package fifo_tb_pkg
+-- Compiling module fifo_assertions
+
+Top level modules:
+	fifo_scenario_tb
+End time: 11:32:12 on Oct 10,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

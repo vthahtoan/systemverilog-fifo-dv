@@ -1,0 +1,5 @@
+QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+Start time: 11:34:36 on Oct 10,2026
+vcover report -cvg -assert -directive -details -output <project-root>/logs/regression_full_yEiH7Q/coverage-merged.txt <project-root>/logs/regression_full_yEiH7Q/merged.ucdb 
+End time: 11:34:36 on Oct 10,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
