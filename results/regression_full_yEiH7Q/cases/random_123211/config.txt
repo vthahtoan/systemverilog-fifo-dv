@@ -1,8 +1,0 @@
-mode=random
-top=fifo_random_tb
-num_random=500
-seed=123211
-requests=518
-samples=1040
-expected_pass=PASS: fifo_random_tb (random=500 seed=123211 samples=1040)
-utc_started=2026-10-10T04:34:02Z
