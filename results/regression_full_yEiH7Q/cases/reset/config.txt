@@ -1,0 +1,4 @@
+mode=reset
+top=fifo_scenario_tb
+expected_pass=PASS: fifo_scenario_tb scenario=reset 
+utc_started=2026-10-10T04:32:18Z
